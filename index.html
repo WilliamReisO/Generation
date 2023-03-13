@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Imagen slider</title>
 </head>
 
 <body>
+    <div class="slider-container">
+        <div class="image-container">
+            <input type="radio" nome="slide" id="slide1" checked>
+            <input type="radio" nome="slide" id="slide2">
+            <input type="radio" nome="slide" id="slide3">
+            <input type="radio" nome="slide" id="slide4">
+            <input type="radio" nome="slide" id="slide5">
 
+            <div class="slide s1">
+                <img src="img/canyon-gc7e58f9f4_1280.jpg" alt="Canion">
+            </div>
+            <div class="slide s2">
+                <img src="img/fog-g6db1c825d_1280.jpg" alt="Campo com neblina">
+            </div>
+            <div class="slide s3">
+                <img src="img/hills-gbb2754b09_1280.jpg" alt="Ravina fria">
+            </div>
+            <div class="slide s4">
+                <img src="img/lake-gb78828758_1280.jpg" alt="lago no fim de tarde">
+            </div>
+            <div class="slide s5">
+                <img src="img/mountains-gf8650d9d0_1280.jpg" alt="Amanhecer nas montanhas" </div>
+            </div>
+            <div class="navigation">
+                <label class="bar" for="slide"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+            </div>
+        </div>
 </body>
 
 </html>
