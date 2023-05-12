@@ -53,3 +53,21 @@ function validaNome(){
     }
     console.log(nome.value)
 }
+
+let txtEmail = document.getElementById("txtEmail")
+function validaEmail(){
+    var email = "ayasshjjs.@outlock.com";
+    var emailFormatado = false
+    
+if(email.value.length.includes("@") && email.indexOf(".") == 2){
+    txtEmail.innerHTML = "O email deve ter ais de 2 caracteres"
+    txtEmail.style.color='red'
+
+    }else{
+        emailFormatado.includes("@");
+        txtEmail.innerHTML = "Campo preenchido corretamente"
+        txtEmail.style.color='green'
+        emailFormatado = true;
+    }
+    
+}
